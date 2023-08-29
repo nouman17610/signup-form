@@ -1,0 +1,63 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+
+.side-image {
+  background-image: url('images/signup-image.jpg');
+  height: 100vh;
+}
+
+.logo-area {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  background-position: center;
+  background-size: auto;
+  opacity: 65%;
+  margin-top: 50%;
+}
+
+.odin-logo {
+  width: 60px;
+  height: auto;
+}
+
+h2 {
+  color: white;
+}
+
+.form-area {
+  background-color: rgb(245, 241, 241); 
+}
+
+.form-content {
+  padding: 15% 5% 5% 5%;
+  background-color: rgb(245, 241, 241);
+}
+
+.form-section {
+  padding: 5% 5% 2% 5%;
+  background-color: white;
+}
+
+.form-lower-area {
+  padding: 2% 5%;
+  background-color: rgb(245, 241, 241);
+  height: vh;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
