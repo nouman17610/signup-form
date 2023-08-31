@@ -1,10 +1,12 @@
-
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Norse', Arial, Helvetica, sans-serif;
+}
 .container {
   width: 100%;
   display: grid;
@@ -12,8 +14,9 @@
 }
 
 .side-image {
-  background-image: url('images/signup-image.jpg');
+  background-image: url('images/pexels-cup-of-couple-6177639.jpg');
   height: 100vh;
+  background-size: contain;
 }
 
 .logo-area {
@@ -92,12 +95,18 @@ input {
   height: 25px;
 }
 
+input:focus {
+  border: none;
+  border: 1px solid #ef7a15;
+  background-color: aliceblue;
+}
+
 button {
   padding: 10px;
   width: 20%;
   color: white;
   font-weight: bold;
-  background-color: #45bf96;
+  background-color: #ef7a15;
   border: none;
 }
 
@@ -107,7 +116,7 @@ button a {
 }
 
 button a:hover {
-  color: green;
+  color: black;
 }
 
 a {
